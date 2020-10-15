@@ -1,9 +1,17 @@
 import React from "react";
+import styles from "./Player.module.css";
+import Sidebar from "../Sidebar/Sidebar";
+import Body from "../Body/Body";
+import Footer from "../Footer/Footer";
 
 const Player = ({ spotify }) => {
   return (
-    <div>
-      <h1>Welcome to Spotify</h1>
+    <div className={styles.player}>
+      <div className={styles.player_body}>
+        <Sidebar />
+        <Body />
+      </div>
+      <Footer />
     </div>
   );
 };

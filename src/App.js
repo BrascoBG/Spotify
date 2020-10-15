@@ -30,7 +30,7 @@ function App() {
         });
       });
     }
-  }, []);
+  }, [dispatch]);
 
   console.log("User", user);
   console.log("Token", token);
