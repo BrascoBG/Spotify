@@ -22,7 +22,6 @@ const Sidebar = () => {
       <br />
       <strong className={styles.sidebar_title}>PLAYLISTS</strong>
       <hr />
-      {console.log("Playlists", playlists)}
       {playlists?.items?.map((playlist) => (
         <SidebarOptions title={playlist.name} />
       ))}
