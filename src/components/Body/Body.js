@@ -19,7 +19,6 @@ const Body = ({ spotify }) => {
           <strong>PLAYLIST</strong>
           <h2>Discover Weekly</h2>
           <p>{discover_weekly?.description}</p>
-          {console.log(discover_weekly)}
         </div>
       </div>
       <div className={styles.body_songs}>

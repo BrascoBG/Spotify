@@ -1,4 +1,4 @@
-# Spotify Clone (ReactJS / Context API)
+# Spotify Clone (ReactJS / Context API / Material UI)
 
 ## Project built with Spotify API
 
